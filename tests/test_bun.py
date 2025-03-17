@@ -12,6 +12,7 @@ class TestBun:
         bun = Bun(name, price)
         assert bun.get_name() == name
 
+
     @pytest.mark.parametrize("name, price", [
         ("black bun", 100),
         ("white bun", 200),

@@ -2,6 +2,7 @@ import pytest
 
 
 class TestBurger:
+
     def test_set_buns(self, burger, bun):
         burger.set_buns(bun)
         assert burger.bun == bun

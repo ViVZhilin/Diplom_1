@@ -4,6 +4,7 @@ from Diplom_1.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FIL
 
 
 class TestDatabase:
+
     def test_available_buns_length(self, database):
         buns = database.available_buns()
         assert len(buns) == 3

@@ -1,4 +1,3 @@
-# conftest.py
 import pytest
 from Diplom_1.bun import Bun
 from Diplom_1.burger import Burger
